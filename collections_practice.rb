@@ -42,12 +42,8 @@ animals = ["dog", "cat", "bird"]
 swap_elements(animals)
   
 def reverse_array(integers)
-  
-  
-  
-  
-  
-  
-  
+  return integers.reverse
+end
+
   
   
