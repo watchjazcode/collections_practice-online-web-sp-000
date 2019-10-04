@@ -54,4 +54,4 @@ def kesha_maker(strings)
   end
   dollarfy 
 end
-
+kesha_maker(strings)
