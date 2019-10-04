@@ -52,7 +52,6 @@ def kesha_maker(strings)
   strings. each do |string|
     strings[2] = $
   end
+  dollarfy 
 end
-dollarfy 
-
 
