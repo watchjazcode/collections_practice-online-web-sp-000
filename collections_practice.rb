@@ -42,6 +42,7 @@ def swap_elements(array)
 end 
 animals = ["dog", "cat", "bird"]
 swap_elements(animals)
+ 
   
 def reverse_array(integers)
   return integers.reverse
@@ -62,6 +63,13 @@ strings = ["ayeeee", "yeah", "hot", "meow"]
 kesha_maker(strings)
 
 
+def find_a(strings)
+end
 
+def sum_array
+end
+
+def add_s
+end
 
 
