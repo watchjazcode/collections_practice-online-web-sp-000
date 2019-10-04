@@ -75,7 +75,8 @@ def sum_array(integers)
   return total
 end
 
-def add_s
+def add_s(array)
+  
 end
 
 
