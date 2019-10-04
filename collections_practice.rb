@@ -10,6 +10,7 @@ def sort_array_asc(integers)
   end
 end
 
+
 def sort_array_desc(integers)
   integers.sort do |a, b|
     if a == b
@@ -34,6 +35,7 @@ def sort_array_char_count(strings)
   end
 end
 
+
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
@@ -47,11 +49,19 @@ end
 integers = [2, 3, 4, 5, 6, 7]
 reverse_array(integers)
 
+
 def kesha_maker(strings)
   dollarfy = []
   strings. each do |string|
-    strings[2] = "$"
+    string[2] = "$"
+    dollarfy << string
   end
-  dollarfy 
+return dollarfy
 end
+strings = ["ayeeee", "yeah", "hot", "meow"]
 kesha_maker(strings)
+
+
+
+
+
