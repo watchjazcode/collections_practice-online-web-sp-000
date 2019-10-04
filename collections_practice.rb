@@ -44,6 +44,8 @@ swap_elements(animals)
 def reverse_array(integers)
   return integers.reverse
 end
+integers = [2, 3, 4, 5, 6, 7]
+reverse_array(integers)
 
   
   
