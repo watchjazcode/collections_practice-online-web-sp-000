@@ -64,9 +64,11 @@ kesha_maker(strings)
 
 
 def find_a(strings)
+  strings.select{|string| string.start_with? "a"}
 end
 
-def sum_array
+def sum_array(integers)
+  
 end
 
 def add_s
