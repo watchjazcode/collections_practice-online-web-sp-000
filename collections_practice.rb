@@ -50,7 +50,7 @@ reverse_array(integers)
 def kesha_maker(strings)
   dollarfy = []
   strings. each do |string|
-    strings[2] = $
+    strings[2] = "$"
   end
   dollarfy 
 end
